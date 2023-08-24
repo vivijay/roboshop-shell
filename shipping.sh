@@ -31,11 +31,11 @@ yum install maven -y &>>$LOGFILE
 
 VALIDATE $? "Installing Maven"
 
-useradd roboshop &>>$LOGFILE
+#useradd roboshop &>>$LOGFILE
 
-mkdir /app &>>$LOGFILE
+#mkdir /app &>>$LOGFILE
 
-curl -L -o /tmp/shipping.zip https://roboshop-builds.s3.amazonaws.com/shipping.zip &>>$LOGFILE
+curl -L -o /tmp/shipping.zip https://roboshop-artifacts.s3.amazonaws.com/shipping.zip &>>$LOGFILE
 
 VALIDATE $? "Downloading shipping artifact"
 
