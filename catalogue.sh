@@ -33,7 +33,7 @@ VALIDATE $? "Installing Nodejs"
 
 
 
-curl -o /tmp/catalogue.zip https://roboshop-builds.s3.amazonaws.com/catalogue.zip &>>$LOGFILE
+curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue.zip &>>$LOGFILE
 
 VALIDATE $? "Downloading Catalogue Artifact"
 
