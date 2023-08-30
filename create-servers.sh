@@ -2,10 +2,10 @@
 
 NAMES=$@
 INSTANCE_TYPE=""
-IMAGE_ID=ami-03265a0778a880afb
-SECURITY_GROUP_ID=sg-0b34d8689bd628e3f
-DOMAIN_NAME=joindevops.online
-HOSTED_ZONE_ID=Z0308214GYCUYHGJHT8R
+IMAGE_ID=09ca487be8b641652
+SECURITY_GROUP_ID=sg-0c7191740fb72e111
+DOMAIN_NAME=learndevcloud.online
+HOSTED_ZONE_ID=Z06091302W70OD9W1H2CO
 
 # if mysql or mongodb instance_type should be t3.medium , for all others it is t2.micro
 
