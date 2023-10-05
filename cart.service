@@ -2,7 +2,7 @@
 Description = Cart Service
 [Service]
 User=roboshop
-Environment=REDIS_HOST=redis.app.learndevcloud.online
+Environment=REDIS_HOST=redis.learndevcloud.online
 Environment=CATALOGUE_HOST=catalogue.app.learndevcloud.online
 Environment=CATALOGUE_PORT=80
 ExecStart=/bin/node /app/server.js
